@@ -35,6 +35,7 @@ function wakeDog(dogName, dogBreed) {
   
 
   function exerciseDog(dogName, dogBreed) {
+    let i = 0; 
     for (i = 0; i < routine.length; i++) { 
       resultArray.push(routine[i](dogName, dogBreed))
     }
